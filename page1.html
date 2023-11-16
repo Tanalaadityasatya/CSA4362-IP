@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <h1>Welcome to our Travel Agency</h1>
+
+    <!-- User Registration Form -->
+    <h2>User Registration</h2>
+    <form action="register.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- User Login Form -->
+    <h2>User Login</h2>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <!-- View Food Details -->
+    <h2>View Food Details</h2>
+    <p>Show food details dynamically here...</p>
+
+    <!-- View Hostel Details -->
+    <h2>View Hostel Details</h2>
+    <p>Show hostel details dynamically here...</p>
+
+    <!-- View Route Details -->
+    <h2>View Route Details</h2>
+    <p>Show route details dynamically here...</p>
+
+    <!-- Book Accommodation Form -->
+    <h2>Book Accommodation</h2>
+    <form action="book_accommodation.php" method="post">
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" name="check-in" required><br>
+
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" name="check-out" required><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>
